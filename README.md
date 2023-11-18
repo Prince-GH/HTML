@@ -1,6 +1,8 @@
 <!-- Created by:Prince kumar
 GitHub:Prince-GH -->
 [![Github](https://img.shields.io/badge/Github-Share-F4511E?style=for-the-badge&logo=github)](https://github.com/Prince-GH)
+<br>
+[![Github](https://img.shields.io/badge/Telegram-Connect-blue?style=for-the-badge&logo=Telegram)](https://t.me/+PzMgzITg_9EyNzM9)<br>
 ## Table of Content 
 <details>
 <summary>HTML</summary>

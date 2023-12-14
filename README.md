@@ -10,6 +10,8 @@ GitHub:Prince-GH -->
 - [Introduction](#introduction)
 - [Elements](#html-elements)
 - [Attributes](#html-attributes)
+- [Color Code](#color-code)
+- [Shortcut](#shortcut)
 </details>
 
 ---
@@ -35,7 +37,6 @@ eg : <p style="color:red";> Paragraph </p>
 <summary>Elements</summary>
 
 - [Meta tag](#meta-tag)
-
 - [Heading tag](#heading)
 - [Paragraph](#paragraph)
 - [Break tag](#break-line-tag)
@@ -635,7 +636,45 @@ Output:<br>
         ![Target](Images/target1.jpg)    
         ![Target](Images/target2.jpg)
         ![Target](Images/target3.jpg)
+
         
+
+
+
+### img
+---
+`<img>` tag helps to use images in website.<br>
+The `src=" "` attribute stand for source of the image. <br>
+The `alt=" "` attribute provides alternative text for images. This text is displayed to screen readers when the image cannot be loaded due to network issues or other reasons. It helps users to understand the webpage content even if they cannot see the image itself, making the webpage more accessible.<br>
+The `width=" "` attribute helps to set the width of the images.<br>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Tag</title>
+</head>
+<body>
+    <h3>NOTEBOOK 1</h3>
+    <img src="https://render.fineartamerica.com/images/rendered/default/front/spiral-notebook/images-medium-5/steaming-hot-chilli-johan-swanepoel.jpg?&targetx=-140&targety=0&imagewidth=961&imageheight=961&modelwidth=680&modelheight=961&backgroundcolor=C74936&orientation=0&producttype=spiralnotebook" width="150px" alt="Notebook front page">
+    <h3>NOTEBOOK 2</h3>
+    <img src="https://render.fineartamerica.com/images/rendered/default/front/spiral-notebook/images-medium-5/steaming-hot-chilli-johan-swanepoel.jpg?&targetx=-140&targety=0&imagewidth=961&imageheight=961&modelwidth=680&modelheight=961&backgroundcolor=C74936&orientation=0&producttype=spiralnoteboo" width="150px" alt="Notebook front page">
+    <h3>NOTEBOOK 3</h3>
+    <img src="/Web Dev/LearnHtml/Images/" width="150px" alt="Notebook front page">
+</body>
+</html>
+```
+Output<br>
+![Image](Images/imgesTag.jpg)
+
+### Picture
+---
+Picture is similar to image tag but the diffrence is to add media quary in the source 
+
+
+
+
 ### HTML Attributes
 ---
 <details>
@@ -683,5 +722,10 @@ Colors are represented in `HEX`, `RGB`, `RGBA`, `HSL` & `CMYK`.
 Output:<br>
 ![Color](Images/color.jpg)
 
-### 
-
+## Color code
+- `#414141` Light Gray
+## Shortcut
+- `CTRL+/` Commant
+- `WIN+.` Emoji
+- `SHIFT+ALT+⬇` Dublicate to next line
+- `ALT+Z` Wrap and ripe the text lines

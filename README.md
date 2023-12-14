@@ -45,6 +45,14 @@ eg : <p style="color:red";> Paragraph </p>
 - [Small](#small)
 - [Sub & Sup](#sub--sup)
 - [del, ins & mark](#del-ins--mark-tag)
+- [Blockqute](#blockquote-q-cite--cite)
+- [q](#blockquote-q-cite--cite)
+- [cite](#blockquote-q-cite--cite)
+- [`<cite>`](#blockquote-q-cite--cite)
+- [aabr](#aabr)
+- [bdo](#bdo)
+- [address](#address)
+- [anchor](#anchor)
 </details>
 
 ---

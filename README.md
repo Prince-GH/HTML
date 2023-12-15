@@ -677,7 +677,7 @@ The `<picture>` tag is similar to the `<img>` tag, but it acts as a container fo
 ![min-width](Images/min-width.jpg)<br>
 - **max-width:** When the *viewport width* is **greater** than the specified **max-width** value, only display the image defined in the corresponding `<source>` element.<br>
 ![max-width](Images/max-width.jpg)<br>
-![min-max-width](images/min-max-width.jpg)
+![min-max-width](Images/min-max-width.jpg)
 ```html
 <!DOCTYPE html>
 <html lang="en">

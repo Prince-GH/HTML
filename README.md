@@ -55,6 +55,8 @@ eg : <p style="color:red";> Paragraph </p>
 - [bdo](#bdo)
 - [address](#address)
 - [anchor](#anchor)
+- [img](#img)
+- [picture](#picture)
 </details>
 
 ---
@@ -670,7 +672,12 @@ Output<br>
 
 ### Picture
 ---
-Picture is similar to image tag but the diffrence is to add media quary in the source 
+The `<picture>` tag is similar to the `<img>` tag, but it acts as a container for different image sources based on **media queries**. Each `<source/>` tag is a self-closing element that specifies attributes like `media` *(for defining the display conditions)* and `srcset` *(which defines a set of alternative image sources based on factors like resolution or device pixel density)*.
+- **min-width:** When the *viewport width* is **less** than the specified **min-width** value, only display the image defined in the corresponding `<source>` element.<br>
+![min-width](Images/min-width.jpg)<br>
+- **max-width:** When the *viewport width* is **greater** than the specified **max-width** value, only display the image defined in the corresponding `<source>` element.<br>
+![max-width](Images/max-width.jpg)<br>
+![min-max-width](images/min-max-width.jpg)
 
 
 

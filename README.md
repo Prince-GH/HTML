@@ -678,10 +678,24 @@ The `<picture>` tag is similar to the `<img>` tag, but it acts as a container fo
 - **max-width:** When the *viewport width* is **greater** than the specified **max-width** value, only display the image defined in the corresponding `<source>` element.<br>
 ![max-width](Images/max-width.jpg)<br>
 ![min-max-width](images/min-max-width.jpg)
-
-
-
-
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Tag</title>
+</head>
+<body>
+    <picture>
+        <source media="(min-width:600px)" srcset="Image/imgesTag.jpg"  />
+        <source media="(max-width:800px)" srcset="Image/imgesTag.jpg"  />
+        <img src="Images/imgesTag.jpg" width="100px" alt="Image not found">
+    </picture>
+</body>
+</html>
+```
+<br>
 ### HTML Attributes
 ---
 <details>

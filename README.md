@@ -674,7 +674,8 @@ Output<br>
 ---
 The `<picture>` tag is similar to the `<img>` tag, but it acts as a container for different image sources based on **media queries**. Each `<source/>` tag is a self-closing element that specifies attributes like `media` *(for defining the display conditions)* and `srcset` *(which defines a set of alternative image sources based on factors like resolution or device pixel density)*.
 - **min-width:** When the *viewport width* is **less** than the specified **min-width** value, only display the image defined in the corresponding `<source>` element.<br>
-![min-width](Images/min-width.jpg)<br>
+![min-width](Images/min-width.jpg)
+<br>
 - **max-width:** When the *viewport width* is **greater** than the specified **max-width** value, only display the image defined in the corresponding `<source>` element.<br>
 ![max-width](Images/max-width.jpg)<br>
 ![min-max-width](Images/min-max-width.jpg)
@@ -750,3 +751,9 @@ Output:<br>
 - `WIN+.` Emoji
 - `SHIFT+ALT+⬇` Dublicate to next line
 - `ALT+Z` Wrap and ripe the text lines
+
+## Authors
+- [@Prince-GH](https://www.github.com/Prince-GH)
+## License
+
+[LICENSE](LICENSE)

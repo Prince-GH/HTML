@@ -842,6 +842,35 @@ The `<ol>` tag contains `<li>` tags that hold list items in a specific order.
 Output:<br>
 ![List](Images/List.jpg)
 
+### Element's Display 
+---
+
+
+Elements are mainly displayed in two types: `inline` and `block`. **Inline** elements take up space on the webpage according to their *actual size*, while **block** elements occupy the *full width* available on the line and start on new lines.
+>💡 To check the element is inline or block <br>
+◻ Open webpage.<br> 
+◻ `CTRL+SHIFT+I`<br>
+◻ Drag to elements.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element display</title>
+</head>
+<body>
+    <span>Inline</span>
+    <p>Block</p>
+</body>
+</html>
+```
+Output:<br>
+![inline](Images/inline.jpg)
+![Block](Images/Block.jpg)
+
+
 ### HTML Attributes
 ---
 <details>

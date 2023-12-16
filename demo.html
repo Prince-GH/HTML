@@ -3,10 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Element display</title>
+    <title>Id and class</title>
+    <style>
+        p,h2{
+            font-size: 15px;
+            color: green;
+        }
+        ol{
+            border: 2px dashed  rgba(34, 134, 96, 0.63);
+            
+        }
+        .Linear{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            list-style-type: square;
+        }
+        .Non-Linear{
+            list-style-type:disc;
+        }
+        #done{
+            font-size: 20px;
+            color: brown;
+            text-decoration: line-through;
+        }
+
+    </style>
 </head>
 <body>
-    <span>Inline</span>
-    <p>Block</p>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>List</title>
+    </head>
+    <body>
+        <h2>Data stracture</h2>
+        <ol>
+            <li>
+                <p>Linear</p>
+                <ul class="Linear">
+                    <li>Array</li>
+                    <li id="done">Linked List</li>
+                    <li>Stack</li>
+                    <li>Queue</li>
+                </ul>
+            </li>
+            <li>
+                <p>Non-Linear</p>
+                <ul class="Non-Linear">
+                    <li>Tree</li>
+                    <li id="done">Graph</li>
+                </ul>
+            </li>
+        </ol>
+    </body>
+    </html>
 </body>
 </html>

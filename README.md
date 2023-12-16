@@ -870,6 +870,77 @@ Output:<br>
 ![inline](Images/inline.jpg)
 ![Block](Images/Block.jpg)
 
+### id and class
+---
+**id** and **class** are used to apply a set of styles to **HTML elements**. Let's see how it works! **W**rite the CSS styles in the `<style>` tag or in a separate **CSS document**. For writing a **class style**, use a **dot** prefix (e.g., `.front_box`). For **ID styling**, use a **hash** prefix (e.g., `#front_box`). To apply these styles, use `class="front_box"` or `id="front_box"` as attributes on the **HTML element**.
+> 💡 To target a *specific element* on the entire webpage, you can directly use its element name in some contexts (e.g., `p{..}` `h3{..}`). However, in most cases, you'll need to use prefixes like` . `for **classes** or `#` for **IDs to achieve precise targeting**.<br>💡 To target multiple HTML elements simultaneously, you can use a comma (",") to separate them. (e.g., p,h3{..})<br>💡 Both IDs and class names are case-sensitive.
+
+ ```html
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id and class</title>
+    <style>
+        p,h2{
+            font-size: 15px;
+            color: green;
+        }
+        ol{
+            border: 2px dashed  rgba(34, 134, 96, 0.63);
+            
+        }
+        .Linear{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            list-style-type: square;
+        }
+        .Non-Linear{
+            list-style-type:disc;
+        }
+        #done{
+            font-size: 20px;
+            color: brown;
+            text-decoration: line-through;
+        }
+
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>List</title>
+    </head>
+    <body>
+        <h2>Data stracture</h2>
+        <ol>
+            <li>
+                <p>Linear</p>
+                <ul class="Linear">
+                    <li>Array</li>
+                    <li id="done">Linked List</li>
+                    <li>Stack</li>
+                    <li>Queue</li>
+                </ul>
+            </li>
+            <li>
+                <p>Non-Linear</p>
+                <ul class="Non-Linear">
+                    <li>Tree</li>
+                    <li id="done">Graph</li>
+                </ul>
+            </li>
+        </ol>
+    </body>
+    </html>
+</body>
+</html>
+ ```
+Output:<br>
+![Id and class](Images/idClass.jpg)
 
 ### HTML Attributes
 ---

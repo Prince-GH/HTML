@@ -57,6 +57,8 @@ eg : <p style="color:red";> Paragraph </p>
 - [anchor](#anchor)
 - [img](#img)
 - [picture](#picture)
+- [map](#map)
+- [table](#table)
 </details>
 
 ---
@@ -696,7 +698,92 @@ The `<picture>` tag is similar to the `<img>` tag, but it acts as a container fo
 </body>
 </html>
 ```
-<br>
+### map
+---
+`<map>` tag is used to add the action on the image's particular area. To generate the image map on the image, follow this **[website]( https://www.image-map.net/.)**.
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map tag</title>
+</head>
+<body>
+    <img src="Images/map.jpg" usemap="#image-map">
+
+<map name="image-map">
+    <area target="_blank" alt="Google" title="Google" href="https://www.google.com/" coords="46,45,22" shape="circle">
+    <area target="_blank" alt="gitHub" title="gitHub" href="https://github.com/" coords="116,46,25" shape="circle">
+</map>
+
+</body>
+</html>
+```
+### table
+---
+The `<table>` tag is used to build rows and columns on the website to represent data in tabular form. It consists of multiple tags to create a stunning table, like:
+
+`<th>`: Defines the heading of a column.<br>
+`<tr>`: Creates the rows of the table.<br>
+`<td>`: Provides data to a cell in the row.<br>
+> 💡 <br> To make your table even more attractive, use `CSS` attributes.<br>  Use **shortcut** to create table fast `table>tr>th*3`. It will create a row for heading.`table>tr>td*3`. It will create a row for data. `*3` is used to create a **cell**.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            width: 250px;
+            border-collapse: collapse;
+        }
+        td,tr{
+            border: 1px solid black;
+            padding:12px;
+        }
+        tr:nth-child(even){
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+       <table>
+             <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>E-mail</th>
+             </tr>
+
+                <tr>
+                    <td>102</td>
+                    <td>Prince</td>
+                    <td>Prince@git.in</td>
+                </tr>
+
+                <tr>
+                    <td>103</td>
+                    <td>Xdean</td>
+                    <td>Xdean@git.in</td>
+                </tr>
+    
+                <tr>
+                    <td>102</td>
+                    <td>Prince</td>
+                    <td>Prince@git.in</td>
+                </tr>
+       </table>
+</body>
+</html>
+```
+Output:<br>
+![Table](Images/table.jpg)
+
 ### HTML Attributes
 ---
 <details>

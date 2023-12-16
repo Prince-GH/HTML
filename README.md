@@ -784,6 +784,20 @@ The `<table>` tag is used to build rows and columns on the website to represent 
 Output:<br>
 ![Table](Images/table.jpg)
 
+<br>
+
+`colspan` attribute can be used to merge columns together.
+
+```html
+<table>
+             <tr>
+                <th colspan="2">ID/NAME</th>
+                <th>E-mail</th>
+             </tr>
+```
+output:<br>
+![colspan](Images/table_col.jpg)
+
 ### HTML Attributes
 ---
 <details>

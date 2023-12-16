@@ -59,6 +59,7 @@ eg : <p style="color:red";> Paragraph </p>
 - [picture](#picture)
 - [map](#map)
 - [table](#table)
+- [List](#list)
 </details>
 
 ---
@@ -791,12 +792,55 @@ Output:<br>
 ```html
 <table>
              <tr>
-                <th colspan="2">ID/NAME</th>
+                 <th colspan="2">ID/NAME</th>
                 <th>E-mail</th>
              </tr>
 ```
 output:<br>
 ![colspan](Images/table_col.jpg)
+
+### List
+---
+In `HTML` lists, there are two types: `unordered` and `ordered` lists. Before we dive into the types of lists, let's first discuss *what a list is*. A list is a collection of related nouns arranged in a specific sequence under a main heading.
+- Unordered List<br>
+The `<ul>` tag contains `<li>` tags that hold list items.
+
+- Ordered List<br>
+The `<ol>` tag contains `<li>` tags that hold list items in a specific order.
+> 💡 Use shortcut `ul>li*5` or `ol>li*5` to autotype the **html** code.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <p>Data stracture</p>
+    <ol>
+        <li>
+            <p>Liner</p>
+            <ul>
+                <li>Array</li>
+                <li>Linked List</li>
+                <li>Stack</li>
+                <li>Queue</li>
+            </ul>
+        </li>
+        <li>
+            <p>Non-Linear</p>
+            <ul>
+                <li>Tree</li>
+                <li>Graph</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
+```
+Output:<br>
+![List](Images/List.jpg)
 
 ### HTML Attributes
 ---

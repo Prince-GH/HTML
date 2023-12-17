@@ -60,6 +60,9 @@ eg : <p style="color:red";> Paragraph </p>
 - [map](#map)
 - [table](#table)
 - [List](#list)
+- [Element Display](#elements-display)
+- [Id & Class](#id-and-class)
+- [iframe](#iframe)
 </details>
 
 ---
@@ -941,6 +944,44 @@ Output:<br>
  ```
 Output:<br>
 ![Id and class](Images/idClass.jpg)
+
+
+
+### iframe
+---
+`<iframe>` is used to embed the content of another webpage in a specific area of the current page.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifrmae</title>
+    <style>
+        .frame{
+            height:400px;
+            width: 100%;
+            border: 2px solid black;   
+        }
+    </style>
+</head>
+<body>
+<iframe src="/Web Dev/LearnHtml/README.md" class="frame" ></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TpOYiEwBErk?si=telsXxuaBHL7m0j7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>
+```
+Output:<br>
+![iframe](Images/iframe.jpg)
+
+
+
+
+
+
+<br><br>
 
 ### HTML Attributes
 ---

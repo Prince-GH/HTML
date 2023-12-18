@@ -63,6 +63,8 @@ eg : <p style="color:red";> Paragraph </p>
 - [Element Display](#elements-display)
 - [Id & Class](#id-and-class)
 - [iframe](#iframe)
+- [base](#base)
+- [Font](#special-font)
 </details>
 
 ---
@@ -976,10 +978,54 @@ Output:<br>
 Output:<br>
 ![iframe](Images/iframe.jpg)
 
+### base
+---
+`<base>` is used to create a referance link of images, video and other attributes.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>base tag</title>
+      <base href="./Images/" target="_blank">
+</head>
+<body>
+    <img src="map.jpg" alt="map">
+</body>
+</html>
+```
+Output:<br>
+![map](Images/map.jpg)
 
-
-
-
+### Special font 
+---
+`<code>`,`<kbd>`,`<samp>`,`<var>`,`<pre>`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special font</title>
+    <style>
+        body{
+            font-size: large;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+ <code>code:The souls we've lost may be gone, but they are never forgotten.</code><br>
+ <kbd>kbd:The souls we've lost may be gone, but they are never forgotten.</kbd><br>
+ <samp>samp:The souls we've lost may be gone, but they are never forgotten.</samp><br>
+ <var>var:The souls we've lost may be gone, but they are never forgotten.</var><br>
+ <pre>pre:The souls we've lost may be gone, but they are never forgotten.</pre><br>
+</body>
+</html>
+```
+Output:<br>
+![Font](Images/font.jpg)
 
 <br><br>
 

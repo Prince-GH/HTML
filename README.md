@@ -65,6 +65,7 @@ eg : <p style="color:red";> Paragraph </p>
 - [iframe](#iframe)
 - [base](#base)
 - [Font](#special-font)
+- [Segmantics](#semantics)
 </details>
 
 ---
@@ -1027,6 +1028,109 @@ Output:<br>
 Output:<br>
 ![Font](Images/font.jpg)
 
+### Semantics
+---
+Semantcs are the block of code that work specific task. Genrally it is written in `<div>` tag but now a days to make website more searchable and have good SEO. we use semantics for the use of specific task.
+- `<div>` for all kind of task.
+- `<header>` Represents the header of the page or section, it contains like logos, navigation, and headings.
+- `<nav>` for the navigation link.
+- `<artical>` for the discription of product.
+- `<main>` for the main content area of a page.
+- `<aside>` for sidebar and footnote
+- `<footer>` for footer of the page often with copyright, links and contact.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semantics</title>
+    <style>
+        body{
+            color:white;
+            font-size: large;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        }
+        header{
+            border: 2px solid #3609b1c9;
+            height: 50px;
+            background: linear-gradient(81.02deg, #fa5560 -23.47%, #b14bf4 45.52%, #4d91ff 114.8%);        
+        }
+        header nav{
+            position: relative;
+            display: flex;
+            justify-content:flex-end;
+            bottom: 30px;
+
+        }
+        nav ul {
+            display: flex;
+            border: 2px solid black;
+            background: linear-gradient(81.02deg, #fa5560 -23.47%, #b14bf4 45.52%, #4d91ff 114.8%);        
+
+        }
+        nav ul li{
+            list-style-type:none;
+            margin-left:20px;
+        }
+        main{
+            height: 500px;
+            border: 2px solid black;
+            background: linear-gradient(81.02deg, #fa5560 -23.47%, #b14bf4 45.52%, #4d91ff 114.8%);    
+
+        }
+        aside{
+            border: 5px solid #fa5560;
+            position: absolute;
+            width: 500px;
+            height: 150px;
+            overflow:hidden;
+            left: 120px;
+        }
+        aside span{
+            color:black;
+            font-weight: bold;
+        }
+        footer{
+            height:70px;
+            border: 2px solid black;
+            background: linear-gradient(81.02deg, #fa5560 -23.47%, #b14bf4 45.52%, #4d91ff 114.8%);        
+
+        }
+    </style>
+</head>
+<body>
+    <header>HEADER
+        <nav>
+            <ul>
+                <li>nav 1</li>
+                <li>nav 2</li>
+                <li>nav 3</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+     MAIN
+     <article>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eum nemo magni deleniti nulla. Neque, tempore est alias voluptatibus quo, quasi dolorem eaque consequuntur provident rem laudantium aut aliquam sint?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum error quae nobis expedita, enim ex exercitationem voluptas similique, ipsam deleniti doloribus. Sint magnam ipsa delectus illum incidunt. Perferendis, ut ex?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eum nemo magni deleniti nulla. Neque, tempore est alias voluptatibus quo, quasi dolorem eaque consequuntur provident rem laudantium aut aliquam sint?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum error quae nobis expedita, enim ex exercitationem voluptas similique, ipsam deleniti doloribus. Sint magnam ipsa delectus illum incidunt. Perferendis, ut ex?
+     </article>
+     <aside>
+        <span>aside</span>
+        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nemo, velit minima iusto perspiciatis possimus asperiores eligendi. At quaerat expedita ducimus, culpa odit nihil ex voluptas aut non laboriosam est?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, nobis! Enim dolorem aliquam eum soluta incidunt rem vel reiciendis veniam quam fuga voluptas quae excepturi qui, deleniti commodi delectus odio.</q>
+     </aside>
+     
+    </main>
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>
+```
+Output:<br>
+![Semantics](Images/Semantics.jpg)
 <br><br>
 
 ### HTML Attributes

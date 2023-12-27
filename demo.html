@@ -3,19 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Special font</title>
+    <title>semantics</title>
     <style>
         body{
+            color:white;
             font-size: large;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        }
+        header{
+            border: 2px solid #3609b1c9;
+            height: 50px;
+            background: linear-gradient(81.02deg, #fa5560 -23.47%, #b14bf4 45.52%, #4d91ff 114.8%);        
+        }
+        header nav{
+            position: relative;
+            display: flex;
+            justify-content:flex-end;
+            bottom: 30px;
+
+        }
+        nav ul {
+            display: flex;
+            border: 2px solid black;
+            background: linear-gradient(81.02deg, #fa5560 -23.47%, #b14bf4 45.52%, #4d91ff 114.8%);        
+
+        }
+        nav ul li{
+            list-style-type:none;
+            margin-left:20px;
+        }
+        main{
+            height: 500px;
+            border: 2px solid black;
+            background: linear-gradient(81.02deg, #fa5560 -23.47%, #b14bf4 45.52%, #4d91ff 114.8%);    
+
+        }
+        aside{
+            border: 5px solid #fa5560;
+            position: absolute;
+            width: 500px;
+            height: 150px;
+            overflow:hidden;
+            left: 120px;
+        }
+        aside span{
+            color:black;
             font-weight: bold;
+        }
+        footer{
+            height:70px;
+            border: 2px solid black;
+            background: linear-gradient(81.02deg, #fa5560 -23.47%, #b14bf4 45.52%, #4d91ff 114.8%);        
+
         }
     </style>
 </head>
 <body>
- <code>code:The souls we've lost may be gone, but they are never forgotten.</code><br>
- <kbd>kbd:The souls we've lost may be gone, but they are never forgotten.</kbd><br>
- <samp>samp:The souls we've lost may be gone, but they are never forgotten.</samp><br>
- <var>var:The souls we've lost may be gone, but they are never forgotten.</var><br>
- <pre>pre:The souls we've lost may be gone, but they are never forgotten.</pre><br>
+    <header>HEADER
+        <nav>
+            <ul>
+                <li>nav 1</li>
+                <li>nav 2</li>
+                <li>nav 3</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+     MAIN
+     <article>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eum nemo magni deleniti nulla. Neque, tempore est alias voluptatibus quo, quasi dolorem eaque consequuntur provident rem laudantium aut aliquam sint?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum error quae nobis expedita, enim ex exercitationem voluptas similique, ipsam deleniti doloribus. Sint magnam ipsa delectus illum incidunt. Perferendis, ut ex?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eum nemo magni deleniti nulla. Neque, tempore est alias voluptatibus quo, quasi dolorem eaque consequuntur provident rem laudantium aut aliquam sint?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum error quae nobis expedita, enim ex exercitationem voluptas similique, ipsam deleniti doloribus. Sint magnam ipsa delectus illum incidunt. Perferendis, ut ex?
+     </article>
+     <aside>
+        <span>aside</span>
+        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nemo, velit minima iusto perspiciatis possimus asperiores eligendi. At quaerat expedita ducimus, culpa odit nihil ex voluptas aut non laboriosam est?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, nobis! Enim dolorem aliquam eum soluta incidunt rem vel reiciendis veniam quam fuga voluptas quae excepturi qui, deleniti commodi delectus odio.</q>
+     </aside>
+     
+    </main>
+    <footer>
+        Footer
+    </footer>
+
 </body>
 </html>

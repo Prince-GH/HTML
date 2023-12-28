@@ -9,7 +9,6 @@ GitHub:Prince-GH -->
 
 - [Introduction](#introduction)
 - [Elements](#html-elements)
-- [Attributes](#html-attributes)
 - [Color Code](#color-code)
 - [Shortcut](#shortcut)
 </details>
@@ -53,6 +52,7 @@ eg : <p style="color:red";> Paragraph </p>
 - [`<cite>`](#blockquote-q-cite--cite)
 - [aabr](#aabr)
 - [bdo](#bdo)
+- [color](#color)
 - [address](#address)
 - [anchor](#anchor)
 - [img](#img)
@@ -66,6 +66,11 @@ eg : <p style="color:red";> Paragraph </p>
 - [base](#base)
 - [Font](#special-font)
 - [Segmantics](#semantics)
+- [Forms](#forms)
+- [Input](#input)
+- [Video](#Video)
+- [Audio](#video)
+- [HTML API](#html-api)
 </details>
 
 ---
@@ -1131,9 +1136,128 @@ Semantcs are the block of code that work specific task. Genrally it is written i
 ```
 Output:<br>
 ![Semantics](Images/Semantics.jpg)
+
+### Forms
+---
+The `form` tag is used to transmit data between a sender and a receiver.<br>
+
+All data within a form is sent in a single transmission to the location specified in the `action` attribute. This attribute designates where the form data is sent after the user clicks the **submit** button.<br>
+
+Forms come in two primary types, determined by the `method` attribute:
+
+- `get:` Appends data to the URL in the request, making it visible in the **address bar**. It's suitable for retrieving data without side effects.
+- `post:` Embeds data within the request body, concealing it from the URL. It's preferred for sending sensitive information or triggering **server-side** actions.
+
+`autocapitalized` and `autocomplete` are used two attribute `on` or `off`.
+
+The `novalidate` attribute is used when you want to prevent the browser's default validation and submit the form directly.
+
+Form also use `target` attribute as discussed in `anchor` tag.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="#" method="post" autocapitalize="on" autocomplete="on">
+          <label for="fname">First name</label>
+          <input type="text" name="" id="fname"><br><br>
+          <label for="lname">Last name</label>
+          <input type="text" name="" id="lname"><br><br>
+          <label for="email">
+            Email
+          <input type="text" name="" id="email" placeholder="@gmil.com">
+          </label><br><br>
+          <fieldset>
+            <legend>Only for Students</legend>
+            Are you Student?
+            <label><input type="radio" name="radio" value="Yes">Yes</label>
+            <label><input type="radio" name="radio" value="No">No</label>
+          </fieldset>
+          <button type="Submit"></button>
+    </form>
+</body>
+</html>
+```
+Output:<br>
+![Form](Images/form.jpg)
+
+### Input
+---
+`<input>` element is used to take values form user but it has multiple attribute and there multiple type.
+- `types` to define what is type of input data.
+   - ![IT](Images/inputTypes.jpg) ![It](Images/inputTypes2.jpg)
+- `value` is used to show the defalult value to the input.
+- `placeholder` is used to show the input type.
+- `id` is used to give the id to that input so that we can add action on it.
+
+`<Select>` input element is used select option from the given `option`.
+`<datalist>` input element is as similar to `select` intput type but it is quit diffrent.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>
+    <form action="#">
+       <label for="Fname">
+        <input type="text" id="Fname" placeholder="First name">
+       </label>
+       <label for="Lname">
+        <input type="text" id="Lname" placeholder="Last name">
+       </label>
+       <label for="Email">
+        <input type="email" id="Email" placeholder="@Gmail.com">
+       </label>
+       <select name="Subject" id="sub">
+        <option value="Choose">Choose</option>
+        <option value="C++">C++</option>
+        <option value="JAVA">JAVA</option>
+        <option value="DSA">DSA</option>
+        <option value="Other">Other</option>
+       </select>
+       <button type="submit">INSTALL</button>
+    </form>
+</body>
+</html>
+```
+Output:<br>
+![select](Images/selectInput.jpg)
+
+### Video
+---
+`<video>` tag is used to lode the video on the webpage. It use some attributes like.
+- `width`:Width of the video.
+- `height`:Height of the video.
+- `preload`:Preload the video.
+- `autoplay`:To make video autoplay.
+- `loop`:To play the video in loop.
+- `muted`:To play video muted.
+- `controls`: To give the contorl to the video operation.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <video src="Images/vedio.mp4" autoplay loop muted height="400px" width="100%"></video>
+    <audio src="Images/audio.mp3" autoplay preload="auto" controls></audio>
+</body>
+</html>
+```
+Output:<br>![AV](Images/av.jpg)
 <br><br>
 
-### HTML Attributes
+### HTML Attributesn
 ---
 <details>
 <summary>Attributes</summary>
@@ -1141,6 +1265,13 @@ Output:<br>
 - [Color](#color)
 - 
 </details>
+
+### Html api
+---
+To use the api in html you need to lean Javascript.
+Good to see you in javascript or css.
+see you😎.
+
 
 ---
 ### Color
@@ -1189,7 +1320,6 @@ Output:<br>
 - `ALT+Z` Wrap and ripe the text lines
 
 ## Authors
-- [@Prince-GH](https://www.github.com/Prince-GH)
+[![Github](https://img.shields.io/badge/Github-Prince-F4511E?style=for-the-badge&logo=github)](https://github.com/Prince-GH)
 ## License
-
-[LICENSE](LICENSE)
+[![Github](https://img.shields.io/badge/Github-LICENSE-194754?style=for-the-badge&logo=github)](LICENSE)

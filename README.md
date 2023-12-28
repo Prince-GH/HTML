@@ -24,3 +24,8 @@
 **🚀 Dive into the repository:**<BR>
  [![HTML](https://img.shields.io/badge/LEARN-HTML-F4511E?style=for-the-badge&logo=github)](https://github.com/Prince-GH/HTML/blob/main/HTML.md)
 
+ ## Authors ✒
+[![Github](https://img.shields.io/badge/Github-Prince-F4511E?style=for-the-badge&logo=github)](https://github.com/Prince-GH)
+## License 📑
+[![Github](https://img.shields.io/badge/Github-LICENSE-194754?style=for-the-badge&logo=github)](LICENSE)
+

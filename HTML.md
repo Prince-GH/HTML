@@ -480,6 +480,43 @@ Output:<br>
 Output:<br>
 ![Address](Images/address.jpg)
 
+### Color
+---
+Colors are represented in `HEX`, `RGB`, `RGBA`, `HSL` & `CMYK`.
+- ### HEX
+  `HEX` is a shorthand way of representing RGB colors. It uses a hexadecimal (base 16) number system to represent the red, green, and blue components of a clolor. `HEX` code are typiccally written as a six digit number, with each pair of components. For example, the hex code `#FFFFFF` represents pure white, while the hex code `#000000` represents pure black.
+- ### RGB
+  `RGB` is a color model that uses the additive primary colors red, green, and blue to represent all colors. Each primary color is represented by a value from `0` to `255`, with `0` being the darkest and 255 being the brightest. By combining the different intensities of the red, green, and blue primary colors, any color can be represented.
+- ### RGBA
+  `RGBA` is an extension of the RGB color model that adds a fourth channel for transparency. The alpha channel is represented by `A` value from `0` to `255`, with `0` being completely transparent and `255` being completely opaque. `RGBA` colors are often used in web design and graphics to create transparent backgrounds and semi-transparent objects.  
+- ### HSL
+  `HSL` (Hue, Saturation, and Lightness) is a color model that is based on the way that humans perceive color. It uses three values to represent a color: `hue`, `saturation`, and `lightness`. `Hue` is the fundamental color of the color, `saturation` is the intensity of the color, and `lightness` is the brightness of the color. Range of `hue` value is `0` to `360` as a colour 
+- ### CMYK
+  `CMYK` (`Cyan`, `Magenta`, `Yellow`, and `Black`) is a color model that is used in printing. It uses four inks to represent all colors: `cyan`, `magenta`, `yellow`, and `black`. By combining the different inks, any color can be represented.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>del ins and mark</title>
+    <style>
+        p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+    <p style="color:rgb(255, 154, 0);">
+        In this paragraph
+    </p>
+</body>
+</html>
+```
+Output:<br>
+![Color](Images/color.jpg)
+
 ### anchor
 ---
 `<a>` anchor tag is used to make a clickable like for website,tel,email etc.<br>Attributes of anchor tag are:
@@ -1255,16 +1292,6 @@ Output:<br>
 </html>
 ```
 Output:<br>![AV](Images/av.jpg)
-<br><br>
-
-### HTML Attributesn
----
-<details>
-<summary>Attributes</summary>
-
-- [Color](#color)
-- 
-</details>
 
 ### Html api
 ---
@@ -1273,43 +1300,6 @@ Good to see you in javascript or css.
 see you😎.
 
 
----
-### Color
----
-Colors are represented in `HEX`, `RGB`, `RGBA`, `HSL` & `CMYK`.
-- ### HEX
-  `HEX` is a shorthand way of representing RGB colors. It uses a hexadecimal (base 16) number system to represent the red, green, and blue components of a clolor. `HEX` code are typiccally written as a six digit number, with each pair of components. For example, the hex code `#FFFFFF` represents pure white, while the hex code `#000000` represents pure black.
-- ### RGB
-  `RGB` is a color model that uses the additive primary colors red, green, and blue to represent all colors. Each primary color is represented by a value from `0` to `255`, with `0` being the darkest and 255 being the brightest. By combining the different intensities of the red, green, and blue primary colors, any color can be represented.
-- ### RGBA
-  `RGBA` is an extension of the RGB color model that adds a fourth channel for transparency. The alpha channel is represented by `A` value from `0` to `255`, with `0` being completely transparent and `255` being completely opaque. `RGBA` colors are often used in web design and graphics to create transparent backgrounds and semi-transparent objects.  
-- ### HSL
-  `HSL` (Hue, Saturation, and Lightness) is a color model that is based on the way that humans perceive color. It uses three values to represent a color: `hue`, `saturation`, and `lightness`. `Hue` is the fundamental color of the color, `saturation` is the intensity of the color, and `lightness` is the brightness of the color. Range of `hue` value is `0` to `360` as a colour 
-- ### CMYK
-  `CMYK` (`Cyan`, `Magenta`, `Yellow`, and `Black`) is a color model that is used in printing. It uses four inks to represent all colors: `cyan`, `magenta`, `yellow`, and `black`. By combining the different inks, any color can be represented.
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>del ins and mark</title>
-    <style>
-        p{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-    </style>
-</head>
-<body style="background-color: rgb(0, 0, 0);">
-    <p style="color:rgb(255, 154, 0);">
-        In this paragraph
-    </p>
-</body>
-</html>
-```
-Output:<br>
-![Color](Images/color.jpg)
 
 ## Color code
 - `#414141` Light Gray

@@ -1,3 +1,4 @@
+https://amcatglobal.aspiringminds.com/?autoLoginVersion=3&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpc3MiOiIxMDAxIiwiYXVkIjoiaHR0cHM6XC9cL2FtY2F0YXBpLmFzcGlyaW5nbWluZHMuY29tXC8iLCJpYXQiOjE3MTE0MzkzODIsIm5iZiI6MTcxMTYwMDIwMCwiZXhwIjoxNzE5MzgzNDAwLCJsb2dpbiI6eyJsYW5ndWFnZSI6ImVuLVVTIiwidW5pcXVlSUQiOiI2NTUwMjEzNSIsInJlZ2lvbiI6IlVTIiwiaXNBdXRvbG9naW4iOjEsInJldHVyblVybCI6IiJ9fQ.vuoLfec9EmeQJpwkt2vLqBwEHVxbwWR5dyxWuN1EdzaJyBfDZ3cuVx8RuZeJbPESfaiYDrg_4NaMVdnvciHI_w
 **Repository** **Name**: HTML
 
 *Embark on a transformative learning experience with the HTML, a meticulously crafted documentation repository that takes you on a comprehensive journey from HTML basics to advanced mastery.*
